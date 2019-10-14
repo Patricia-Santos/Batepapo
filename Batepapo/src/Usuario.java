@@ -1,9 +1,11 @@
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Usuario {
 
 	private String nomeUsuario;
 	private String senha;
+	private ArrayList<String> mensagens;
 	
 	public Usuario(String nomeUsuario, String senha) {
 		this.nomeUsuario = nomeUsuario;
